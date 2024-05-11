@@ -26,15 +26,15 @@ Then do the experiments on filters - lowpass (Butterworth, Chebyshev (type I), C
 ##### results of data augmentated by filters
 |              | Test loss           | Test mae            |
 |--------------|---------------------|---------------------|
-| butterworth  | 0.04165396839380264 | 0.10684800893068314 |
-| Chebyshev I  | 0.05766607075929642 | 0.12264931201934814 |
-| Chebyshev II | 0.06217707321047783 | 0.12897001206874847 |
-| elliptic     | 0.0508585125207901  | 0.12048794329166412 |
-| highpass     | 0.05013992264866829 | 0.1088569238781929  |
-| bandpass     | 0.05656576529145241 | 0.11583404242992401 |
-| peaking      | 0.05044765025377273 | 0.11729744076728821 |
-| high shelf   | 0.08168621361255646 | 0.1257268637418747  |
-| low shelf    | 0.05099983885884285 | 0.10496504604816437 |
+| butterworth  | 0.042 | 0.101 |
+| Chebyshev I  | 0.058 | 0.123 |
+| Chebyshev II | 0.062 | 0.129 |
+| elliptic     | 0.051  | 0.120 |
+| highpass     | 0.050 | 0.109  |
+| bandpass     | 0.056 | 0.116 |
+| peaking      | 0.050 | 0.117 |
+| high shelf   | 0.082 | 0.126  |
+| low shelf    | 0.051 | 0.105 |
 
 In order to make it easier to analyze the results, I plot them. The four pairs of bars on the left of the red dotted line are the results for baselines, while those on the right are results augmented by filters. The bars in green box are augmented by lowpass filters.
 ![results](./plot.png)
